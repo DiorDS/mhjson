@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mhjson"
+version = "0.1.0"
+description = ""
+authors = ["Codwizer"]
+readme = "README.md"
+license = "GPL-3.0"
+packages = [
+    { include = "mhjson" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
